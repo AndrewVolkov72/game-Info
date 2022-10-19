@@ -1,0 +1,19 @@
+.item {
+  animation: loading 3s infinite linear;
+  stroke: #fff;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}

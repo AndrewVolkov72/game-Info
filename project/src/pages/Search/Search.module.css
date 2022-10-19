@@ -1,0 +1,16 @@
+.title {
+  color:#fff;
+  margin-bottom: 24px;
+}
+.wrapper {
+  margin-top: 24px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+}
+.load_text {
+  color: #fff;
+  margin-left: 8px;
+  font-size: 35px;
+}

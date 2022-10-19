@@ -1,0 +1,23 @@
+.item {
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
+}
+.green {
+  border-color: rgba(109,200,73,.4);
+}
+.green > p {
+  color: #6dc849;
+}
+.yellow {
+  border-color: rgba(253,202,82,.4);
+}
+.yellow > p {
+  color: #fdca52;
+}
+.red {
+  border-color: rgba(252,75,55,.4);
+}
+.red > p {
+  color: #fc4b37;
+}

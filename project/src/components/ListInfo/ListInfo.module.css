@@ -1,0 +1,15 @@
+.title {
+  color: #ffffff66;
+  margin-bottom: 8px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width:425px) {
+  .item {
+    overflow: hidden;
+  }
+}

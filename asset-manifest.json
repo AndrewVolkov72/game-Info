@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/game-Info/static/css/main.4b5b309b.css",
+    "main.js": "/game-Info/static/js/main.ad7ae8b1.js",
+    "index.html": "/game-Info/index.html",
+    "static/media/gamepad.svg": "/game-Info/static/media/gamepad.58fbfcd47e1005f8d13276f172c5003b.svg",
+    "static/media/circle.svg": "/game-Info/static/media/circle.4628ec0b53b5565dc80e50d679a7d7f4.svg",
+    "static/media/heart.svg": "/game-Info/static/media/heart.834c185ab0766bdcac22cb9107a07a79.svg",
+    "static/media/loading.svg": "/game-Info/static/media/loading.1bca2c20126faa2cee83354dfd6c87f5.svg",
+    "static/media/play.svg": "/game-Info/static/media/play.611c63734ccbfeeedd9128aed054bc72.svg",
+    "static/media/cancel.svg": "/game-Info/static/media/cancel.573c9db34aac06aae8aed7d892f098aa.svg",
+    "static/media/search.svg": "/game-Info/static/media/search.71dc4dc87aa24d32e7c69b7e6fb3f92c.svg",
+    "static/media/menu.svg": "/game-Info/static/media/menu.0f66d0c7ef0439001f13389f6c2cdcdc.svg",
+    "static/media/arrow.svg": "/game-Info/static/media/arrow.b01e30d4f108fcc6bd630321fa18a7a6.svg",
+    "main.4b5b309b.css.map": "/game-Info/static/css/main.4b5b309b.css.map",
+    "main.ad7ae8b1.js.map": "/game-Info/static/js/main.ad7ae8b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b5b309b.css",
+    "static/js/main.ad7ae8b1.js"
+  ]
+}

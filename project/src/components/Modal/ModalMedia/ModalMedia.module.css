@@ -1,0 +1,44 @@
+.main {
+  width: 70%;
+}
+.content {
+  display: flex;
+  width: 100%;
+}
+.img {
+  width: 100%;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+.img_btn {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+}
+.next {
+  right: 0;
+}
+.back {
+  left: 0;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.subtext {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+@media (max-width:768px) {
+  .main {
+    width: 85%;
+  }
+}

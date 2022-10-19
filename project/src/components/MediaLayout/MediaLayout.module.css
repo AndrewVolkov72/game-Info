@@ -1,0 +1,54 @@
+.media {
+  width: 380px;
+  min-width: 380px;
+  max-width: 380px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  max-height: fit-content;
+  max-height: 533px;
+  position: relative;
+  border-radius: 6px;
+}
+.wrapper {
+  width: 50%;
+  max-height: 106px;
+  position: relative;
+  cursor: zoom-in;
+}
+.screenshot {
+  width: 100%;
+  height: 100%;
+}
+.wrapper:hover .bg {
+  display: block;
+}
+.bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .35)
+}
+.trailer {
+  max-width: 380px;
+  cursor: pointer;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  width: 50%;
+  max-height: 106px;
+  background-color: rgba(0,0,0, .5);
+  height: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}

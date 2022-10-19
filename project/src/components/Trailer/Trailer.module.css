@@ -1,0 +1,37 @@
+.tailer {
+  min-width: 100%;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.img {
+  min-width: 100%;
+}
+.video {
+  min-width: 100%;
+  max-width: 100%;
+}
+.btn {
+  border-radius: 100%;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background-color: rgba(21,21,21,.8);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.play {
+  fill:#fff;
+  
+}

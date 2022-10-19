@@ -1,0 +1,21 @@
+.item {
+  margin-right: 22px;
+  min-width: 250px;
+  max-width: 250px;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.img {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.text {
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

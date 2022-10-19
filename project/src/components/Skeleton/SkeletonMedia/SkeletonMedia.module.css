@@ -1,0 +1,31 @@
+.item {
+  width: 380px;
+  min-width: 380px;
+  max-width: 380px;
+}
+.img {
+  animation: skeleton-loading .75s linear infinite alternate;
+  height: 210px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtext {
+  animation: skeleton-loading .75s linear infinite alternate;
+  width: 45%;
+  height: 20px;
+  border-radius: 6px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200deg 20% 80% / 40%);
+  }
+  100% {
+    background-color: hsl(200deg 20% 95% / 70%);
+  }
+}

@@ -1,0 +1,14 @@
+.item {
+  height: 150px;
+  animation: skeleton-loading .75s linear infinite alternate;
+  border-radius: 6px;
+}
+
+@keyframes skeleton-loading {
+0% {
+  background-color: hsl(200deg 20% 80% / 40%);
+}
+100% {
+  background-color: hsl(200deg 20% 95% / 70%);
+}
+}

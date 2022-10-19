@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.link {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 16px;
+  transition: all ease .3s;
+}
+.link:hover {
+  color: #ffffff66;
+}
+.logo {
+  color: #fff;
+  font-size: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  stroke: #fff;
+  margin-left: 8px;
+}
+.btns {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .search, .navs {
+    display: none;
+  }
+  .btns {
+    display: block;
+  }
+}

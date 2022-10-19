@@ -1,0 +1,60 @@
+.slider {
+  width: 100%;
+  height: 300px;
+}
+.title {
+  color: #ffffff66;
+  font-size: 30px;
+}
+.content {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.nav {
+  margin: 16px 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btns {
+  display:flex;
+  align-items: center;
+}
+.back {
+  margin-right: 16px;
+}
+.next {
+  margin-right: 24px;
+}
+.right {
+  transform: rotate(90deg);
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+  transition: all ease .3s;
+}
+.left {
+  transform: rotate(270deg);
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+  transition: all ease .3s;
+}
+.left:hover, .right:hover {
+  background-color: #b3b3b3;
+}
+
+@media (max-width:425px) {
+  .title {
+    font-size: 20px;
+  }
+  .left, .right {
+    height: 30px;
+    width: 30px;
+  }
+}

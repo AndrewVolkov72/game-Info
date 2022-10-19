@@ -1,0 +1,71 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  border:none;
+  transition: all ease .3s;
+  font-size: inherit;
+  font-family: inherit;
+}
+.sm {
+  background-color: inherit;
+  display: flex;
+  padding: 0;
+}
+.md {
+  background-color: #454545;
+  color: #fff;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.big {
+  background-color: yellow;
+  width: 100%;
+}
+.md:hover {
+  background-color: #fff;
+  color: #000;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: #ffffff1a;
+  transition: all ease .3s;
+  margin-right: 16px;
+}
+.link:last-child {
+  margin-right: 0;
+}
+.link:hover {
+  background-color: #fff;
+  color: #000;
+}
+.active {
+  background-color: #fff;
+  color: #000;
+}
+.btn:hover .loader {
+  stroke: #000;
+}
+.loader {
+  animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
